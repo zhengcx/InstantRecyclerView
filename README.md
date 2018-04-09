@@ -34,7 +34,7 @@ dependencies {
     }
 ```
 
-## Why to use InstantRecyclerView
+# Why to use InstantRecyclerView
 Link: [https://juejin.im/post/5abda929f265da23826e155e](https://juejin.im/post/5abda929f265da23826e155e)
 
 - Solved a repeated global refresh.
