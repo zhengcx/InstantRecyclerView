@@ -34,20 +34,20 @@ dependencies {
     }
 ```
 
-## RecyclerView使用封装与优化
+## Why to use InstantRecyclerView
 Link: [https://juejin.im/post/5abda929f265da23826e155e](https://juejin.im/post/5abda929f265da23826e155e)
 
-- Solved a repeated global refresh 
+- Solved a repeated global refresh.
   解决重复的全局刷新
+- Improving the efficiency and performance of adding and deletions header/Footer.
+  提高增删header/Footer的效率和性能
+- Make the list of multiple itemType code clear.
+  使多itemType的列表代码清晰解耦
+- Solved the problem of overdrawing by state View.
+  解决状态View导致过度绘制的问题(如loadingView、Loadfailed view、emptyData view)
+- Provide functions for pullup loading more.（Two different kinds of listeners.
+  集成提供两种上拉加载更多监听
+- Solved the problem of repeated binding of item click events.
+  解决item的点击事件重复绑定的问题
   
-- Improving the efficiency and performance of adding and deletions header/Footer 
-提高增删header/Footer的效率和性能
-
-- Make the list of multiple itemType code clear
-使多itemType的列表代码清晰解耦
-- Solved the problem of overdrawing by state View
- 解决状态View导致过度绘制的问题(如loadingView、Loadfailed view、emptyData view)
-- Provide functions for pullup loading more.（Two different kinds of listeners）
- 集成提供两种上拉加载更多监听
-- Solving the problem of repeated binding of item click events.
-解决item的点击事件重复绑定的问题
+   [**see More**](https://juejin.im/post/5abda929f265da23826e155e)
